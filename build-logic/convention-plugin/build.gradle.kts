@@ -51,9 +51,5 @@ gradlePlugin {
             id = "convention.plugin.mvi.template"
             implementationClass = "convention.plugin.MviTemplatePlugin"
         }
-        register("notion.string") {
-            id = "convention.plugin.notion.string"
-            implementationClass = "convention.plugin.NotionStringboardPlugin"
-        }
     }
 }
