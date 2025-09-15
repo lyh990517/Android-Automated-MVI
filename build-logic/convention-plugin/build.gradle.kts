@@ -1,6 +1,5 @@
 plugins {
     `kotlin-dsl`
-    alias(libs.plugins.jetbrains.kotlin.plugin.serialization)
 }
 
 group = "com.yunho.app.buildlogic"
@@ -21,7 +20,6 @@ dependencies {
     compileOnly(libs.androidx.room.gradle.plugin)
     compileOnly(libs.google.dagger.hilt.android.gradlePlugin)
     compileOnly(libs.google.devtools.ksp.gradlePlugin)
-    implementation(libs.jetbrains.kotlinx.serialization.json)
     compileOnly(libs.kotlin.gradlePlugin)
 }
 
